@@ -1,0 +1,12 @@
+### Requirements
+
+### If you have a GPU environment, uncomment the following line
+#tensorflow-gpu
+tensorflow
+
+keras
+protobuf
+matplotlib
+
+
+pyosc
