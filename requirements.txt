@@ -7,6 +7,9 @@ tensorflow
 keras
 protobuf
 matplotlib
+joblib
 
+pretty_midi
+pyfluidsynth
 
 pyosc
