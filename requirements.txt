@@ -13,5 +13,4 @@ pretty_midi
 pyfluidsynth
 
 pyosc
-
 tensorboard_logger
