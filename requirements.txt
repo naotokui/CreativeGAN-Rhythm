@@ -1,8 +1,8 @@
 ### Requirements
 
 ### If you have a GPU environment, uncomment the following line
-#tensorflow-gpu
-tensorflow
+tensorflow-gpu
+#tensorflow
 
 keras
 protobuf
@@ -14,3 +14,4 @@ pyfluidsynth
 
 pyosc
 tensorboard_logger
+matplotlib
