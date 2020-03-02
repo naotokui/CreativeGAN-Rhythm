@@ -1,10 +1,10 @@
 ### Requirements
 
 ### If you have a GPU environment, uncomment the following line
-tensorflow-gpu
-#tensorflow
+tensorflow-gpu==1.15.0
+#tensorflow==1.15.0
 
-keras
+keras == 2.3.1
 protobuf
 matplotlib
 joblib
@@ -12,6 +12,6 @@ joblib
 pretty_midi
 pyfluidsynth
 
-pyosc
 tensorboard_logger
 matplotlib
+pyxdameraulevenshtein
