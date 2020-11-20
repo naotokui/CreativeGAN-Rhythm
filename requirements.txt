@@ -15,3 +15,7 @@ pyfluidsynth
 tensorboard_logger
 matplotlib
 pyxdameraulevenshtein
+
+jupyter 
+notebook
+tqdm
