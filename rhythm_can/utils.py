@@ -49,9 +49,9 @@ def plot_drum_matrix(a):
         
 def play_drum_matrix(mat, tempo=120.0, threshold=0.0):
     # generate audio
-    audio_data = get_audio_from_drum_matrix(mat, tempo=tempo, threshold=threshold)
+    audio_data, mididata = get_audio_from_drum_matrix(mat, tempo=tempo, threshold=threshold)
     display(Audio(audio_data, rate=44100))
-    return audio_data
+    return audio_data, mididata
 
 def get_audio_from_drum_matrix(mat, tempo=120., threshold=0.0):
     # ignore weak onsets
@@ -76,7 +76,7 @@ def get_audio_from_drum_matrix(mat, tempo=120., threshold=0.0):
 
     # midi -> audio
     audio_data = pm.fluidsynth()
-    return audio_data
+    return audio_data, pm
 
 
 
