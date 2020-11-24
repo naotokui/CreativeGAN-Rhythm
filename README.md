@@ -3,7 +3,7 @@
 
 <img src="https://cclab.sfc.keio.ac.jp/wp-content/uploads/2020/07/can_framework-1024x426.png" width="512" height="213" />
 
-**Creative Adversarial Network for generating novel Dance Music Rhythm Patterns**
+**RhythmCAN – Generating novel rhythm patterns using GAN with Genre Ambiguity Loss**
   
 ***Can we use AI, more specifically GAN, to originate new electronic dance music genres?***
   
