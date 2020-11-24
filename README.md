@@ -1,10 +1,18 @@
 # x-rhythm-can
 Creative Adversarial Network for generating novel Dance Music Rhythm Patterns
 
+> Can we use AI, more specifically GAN, to originate new electronic dance music genres? 
 
-![Creative-GAN arthitecture](https://cclab.sfc.keio.ac.jp/wp-content/uploads/2020/07/can_framework-1024x426.png "Creative-GAN arthitecture")
+![Creative-GAN arthitecture](https://cclab.sfc.keio.ac.jp/wp-content/uploads/2020/07/can_framework-1024x426.png "Creative-GAN arthitecture" =512x213)
 
 
+Since the introduction of deep learning, researchers have proposed content generation systems using deep learning and proved that they are competent to generate convincing content and artistic output, including music. However, one can argue that these deep learning-based systems imitate and reproduce the patterns inherent within what humans have created, instead of generating something new and creative.
+
+In this paper, we focus on music generation, especially rhythm patterns of electronic dance music, and discuss if we can use deep learning to generate novel rhythms, interesting patterns not found in the training dataset.
+
+We extend the framework of Generative Adversarial Networks(GAN) and encourage it to diverge from the inherent distributions in the dataset by adding additional classifiers to the framework. The paper shows that our proposed GAN can generate rhythm patterns that sound like music rhythms but not belong to any genre in the training dataset.
+
+The source code, generated rhythm patterns, and a supplementary plugin software for a popular Digital Audio Workstation software are available on our website.
 
 
 # Project Page
