@@ -5,7 +5,7 @@ Creative Adversarial Network for generating Dance Music Rhythm Patterns
 
 Before doing `pip install -r requirements.txt`, edit `requirements.txt` depending on your needs please.
 
-- Python 2.x (TODO: update to 3.x)
+- Python 3.6 or later
 - TensorFlow
 - keras
 - matplotlib
@@ -16,13 +16,3 @@ Before doing `pip install -r requirements.txt`, edit `requirements.txt` dependin
 also, you need to install `fluidsynth` separately by `sudo apt-get install fluidsynth`.
 
 # Training
-
-
-
-# Playing
-
-You can play generated rhythm patterns with a Max patch included in `playback_maxmsp` directory. The patch is based on ideas introduced in an amazing book, ["Step by Step: Adventures in Sequencing with Max/MSP"](https://cycling74.com/products/books) written by Gregory Taylor.
-
-# TODO
-- update to Python 3.x environment
-- change OSC module to Python 3.x compatible one
