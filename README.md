@@ -1,4 +1,4 @@
-# x-rhythm-can: Creative-GAN for Novel Rhythm Generation
+# Creative-GAN for Novel Rhythm Generation
 
 
 <img src="https://cclab.sfc.keio.ac.jp/wp-content/uploads/2020/07/can_framework-1024x426.png" width="512" height="213" />
@@ -39,9 +39,20 @@ Or here are soundcloud playlists:
 [Conditional-GAN rhythm patterns](https://soundcloud.com/deeplearning-music/sets/rhythm-patterns-generated-by-genre-conditioned-gan)
   
    
-
 # Training
 
+
+# Playback
+
+We provide an Ableton Live M4L device for playing generated rhythm patterns.  Once you train a Creative-GAN (or conditional GAN) model with the scripts in this repository, you can convert the `.h5` model into a TFJS model.  
+
+`$ tensorflowjs_converter --input_format=keras \
+         /path/to/saved_model /path/to/tfjs_model`
+         
+The following video demonstrates how the device works and how generated beats sound! 
+<a href="https://www.youtube.com/watch?v=ALdkDe9FbcU"><img src="https://github.com/naotokui/M4L-CreativeGAN-Rhythm/blob/master/images/abletonlive.png?raw=true&retry=2" width="500px"></a>
+
+We also provide pre-trained TFJS models. See [M4L-CreativeGAN-Rhythm](https://github.com/naotokui/M4L-CreativeGAN-Rhythm/) for more details.
 
 # Reference
 
