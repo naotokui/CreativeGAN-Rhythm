@@ -52,7 +52,7 @@ We provide an Ableton Live M4L device for playing generated rhythm patterns.  On
 The following video demonstrates how the device works and how generated beats sound! 
 <a href="https://www.youtube.com/watch?v=ALdkDe9FbcU"><img src="https://github.com/naotokui/M4L-CreativeGAN-Rhythm/blob/master/images/abletonlive.png?raw=true&retry=2" width="500px"></a>
 
-We also provide pre-trained TFJS models [here](https://github.com/naotokui/M4L-CreativeGAN-Rhythm/tree/master/releases. See [M4L-CreativeGAN-Rhythm repository](https://github.com/naotokui/M4L-CreativeGAN-Rhythm/) for more details.
+We also provide pre-trained TFJS models [here](https://github.com/naotokui/M4L-CreativeGAN-Rhythm/tree/master/releases). See [M4L-CreativeGAN-Rhythm repository](https://github.com/naotokui/M4L-CreativeGAN-Rhythm/) for more details.
 
 # Reference
 
