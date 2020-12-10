@@ -60,7 +60,7 @@ def get_audio_from_drum_matrix(mat, tempo=120., threshold=0.0):
     pm = pretty_midi.PrettyMIDI(initial_tempo=tempo) # midi object
     pm_inst = pretty_midi.Instrument(0, is_drum=True) # midi instrument
     
-    timestep = (60./tempo) / 4. # duration of a 16th note
+    timestep = (60./tempo) / resolution # duration of a 16th note
     for position, timeslot in enumerate(mat):
         for inst, onset in enumerate(timeslot):
             if onset > 0.:

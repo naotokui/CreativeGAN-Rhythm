@@ -45,7 +45,7 @@ DRUM_MIDI_MAP = [ # pianoroll to MIDI - reverse
 ]
     
        
-resolution  = 4 # separate quater into 4  = 16 notes per bar
+resolution  = 6 # separate quater into 4  = 16 notes per bar
 
 nb_bars = 2 
 
@@ -54,4 +54,4 @@ len_seq = resolution * 4 * nb_bars # length of drumloops in training data - 2 ba
 nb_notes = len(DRUM_CLASSES) # number of possible MIDI notes  - max_drum_note - min_drum_note
 
 
-len_input = 100  # dimentionality of random input vector z to the generator network
+len_input = 150  # dimentionality of random input vector z to the generator network
