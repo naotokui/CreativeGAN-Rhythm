@@ -1,7 +1,7 @@
 ### Requirements
 
 ### If you have a GPU environment, uncomment the following line
-tensorflow-gpu==1.15.0
+tensorflow-gpu==2.5.3
 #tensorflow==1.15.0
 
 keras == 2.3.1
